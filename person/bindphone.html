@@ -15,7 +15,7 @@
 
 		<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
 		<script src="../AmazeUI-2.4.2/assets/js/amazeui.js"></script>
-
+       <script src="../js/bindphone.js"></script>
 	</head>
 
 	<body>
@@ -117,7 +117,7 @@
 						<div class="am-form-group bind">
 							<label for="user-phone" class="am-form-label">验证手机</label>
 							<div class="am-form-content">
-								<span id="user-phone">186XXXX0531</span>
+								<span id="user-phone1" name="user-phone1"></span>
 							</div>
 						</div>
 						<div class="am-form-group code">
@@ -125,14 +125,14 @@
 							<div class="am-form-content">
 								<input type="tel" id="user-code" placeholder="短信验证码">
 							</div>
-							<a class="btn" href="javascript:void(0);" onclick="sendMobileCode();" id="sendMobileCode">
-								<div class="am-btn am-btn-danger">验证码</div>
+							<a class="btn" href="javascript:void(0);">
+								<div class="am-btn am-btn-danger " id="am-btn-danger1">验证码</div>
 							</a>
 						</div>
 						<div class="am-form-group">
 							<label for="user-new-phone" class="am-form-label">验证手机</label>
 							<div class="am-form-content">
-								<input type="tel" id="user-new-phone" placeholder="绑定新手机号">
+								<input type="text" id="user-new-phone1" placeholder="绑定新手机号">
 							</div>
 						</div>
 						<div class="am-form-group code">
@@ -140,12 +140,12 @@
 							<div class="am-form-content">
 								<input type="tel" id="user-new-code" placeholder="短信验证码">
 							</div>
-							<a class="btn" href="javascript:void(0);" onclick="sendMobileCode();" id="sendMobileCode">
-								<div class="am-btn am-btn-danger">验证码</div>
+							<a class="btn" href="javascript:void(0);">
+								<div class="am-btn am-btn-danger " id="am-btn-danger2">验证码</div>
 							</a>
 						</div>
 						<div class="info-btn">
-							<div class="am-btn am-btn-danger">保存修改</div>
+							<div class="am-btn am-btn-danger" id="am-btn-danger3">保存修改</div>
 						</div>
 
 					</form>
