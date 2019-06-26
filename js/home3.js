@@ -26,7 +26,7 @@ function iningoodstype() {
 										`+t.name.substring(10,t.name)+`</br>`+t.name.substring(10)+`
 									</div>
 									<div class="sub-title "style="color: red;">
-										<strong>￥`+t.price+`.00</strong>
+										<strong>￥`+t.price+`</strong>
 									</div>
 								</div>
                                   <img src="`+img+`" uid="`+t.id+`""/>
@@ -39,23 +39,13 @@ function iningoodstype() {
 										`+t.name+`
 									</div>
 									<div class="sub-title " style="color: red;">
-										<strong>￥`+t.price+`.00</strong>
+										<strong>￥`+t.price+`</strong>
 									</div>
 
 								</div>
 								<a href="../home/introduction.html?uid=`+t.id+`"><img src="`+img+`" style="width: 160px;height: 140px" uid="`+t.id+`" /></a>
 							</div>`)
-
-
-
-
-
-
-            // if(i>1){
-            //     return
-            // }
-
-
+            
         })
     });
 }
